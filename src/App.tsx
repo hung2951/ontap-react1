@@ -29,7 +29,8 @@ function App() {
     }
   }
   const onhandleEdit = async (product: ProductType) => {
-    const { data } = await axios.put('http://localhost:8000/', product)
+    const { data } = await axios.put('http://localhost:8000/products/' + product.id, product)
+    setProducts(products.map(item => item.id === data.id ? product : item))
   }
   return (
     <div className="App">

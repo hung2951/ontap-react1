@@ -1,11 +1,11 @@
 {
   "products": [
     {
-      "name": "Sản phẩm 2",
-      "price": "100",
+      "name": "sam sung",
+      "price": 100,
       "img": "https://images.fpt.shop/unsafe/fit-in/960x640/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2021/11/4/637716443494620866_8.jpg",
-      "desc": "mô tả",
-      "id": 1
+      "desc": "tt",
+      "id": 2
     }
   ]
 }
